@@ -1,10 +1,10 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+import AppRoutes from "./routes";
 
 function App() {
   return (
     <div>
-      <Button>Click me</Button>
+      <AppRoutes />
     </div>
   );
 }
