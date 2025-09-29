@@ -1,10 +1,13 @@
-import { Routes, Route } from "react-router-dom";
+import HomePage from "@/features/home";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 const AppRoutes = () => {
   return (
-    <Routes>
-      <Route path="/" element={<></>} />
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
