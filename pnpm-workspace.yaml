@@ -1,5 +1,3 @@
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - esbuild
-overrides:
-  lyfe: link:../../../AppData/Local/pnpm/global/5/node_modules/lyfe
